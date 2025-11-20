@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'itproger.urls'
+ROOT_URLCONF = 'itproger.itproger.urls'
 
 TEMPLATES = [
     {
