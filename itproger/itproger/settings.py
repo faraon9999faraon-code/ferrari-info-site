@@ -22,12 +22,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret")
+SECRET_KEY = "django-insecure-w8p2l9m3k6v1t0s4y7r8u2e9b1n5q3c0x8p6l4o2a9d7f1g3h"
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(",")
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'ferrari-info-site.onrender.com'
+]
 
 # Application definition
 
